@@ -1,0 +1,65 @@
+.video{ z-index: 10;}
+.layer{ z-index: 11;}
+#main_search{z-index: 12;}
+#intro{position: relative;width: 100%;height: 700px;overflow: hidden;}
+#intro .layer{width: inherit;height: inherit;position: absolute;top: 0;left: 0;
+  opacity: 0.8;
+  background: linear-gradient(135deg,#333973 0,#2aa6b3 100%);
+}
+#main_search{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  height: auto;
+
+}
+.box_search{width: 60%;height: 100%;background: rgba(0, 0, 0, 0.5);margin: 0 auto;border-radius: 10px;text-align:center;
+  padding-bottom: 50px;
+}
+
+#main_search form[name="frmSearch"]{
+  zoom: 1;
+}
+#main_search .input-group{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+#main_search input[name="keyword"]{
+  width: inherit;
+  padding: 10px 15px;
+  font-size: 21px;
+  background: #fff;
+}
+#main_search button[name="btnSearch"]{
+  padding: 14px 15px;
+  vertical-align: top;
+  border: none;
+  background: #0D7CC9;
+}
+#main_search .fa{
+  font-size: 20px;
+  color: #fff;
+}
+.box_search{
+  padding-top: 25px;
+}
+.box_search>h2{
+  font-size: 30px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.box_search>p{
+  width: 90%;
+  margin:  0 auto;
+  line-height: 22px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  font-size: 20px;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+.box_search>.group{
+    margin-top: 15px;
+}

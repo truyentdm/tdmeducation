@@ -1,0 +1,13 @@
+@media screen and (max-width: 960px){
+    body {
+        background-color: lightblue;
+    }
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 480px){
+    .box_search{
+        width: 95%;
+    }
+}

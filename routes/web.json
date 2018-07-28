@@ -1,0 +1,75 @@
+{
+	"route" : [
+		{
+			"alias": "/",
+			"mapping": { "main" : "()=><Home/>" },
+			"exact" : true
+		},
+		{
+			"alias": "/Games/StudySmart_Play",
+			"mapping": { "main" : "()=><StudySmart/>" },
+			"exact" : false
+		},
+		{
+			"alias": "/web",
+			"mapping": { "main" : "()=><Home/>" },
+			"exact" : false
+		},
+		{
+			"alias": "/mobile",
+			"mapping": { "main" : "()=><Home/>" },
+			"exact" : false
+		},
+		{
+			"alias": "/login",
+			"mapping": { "main" : "()=><Login/>" },
+			"exact" : false
+		},
+		{
+			"alias": "/login",
+			"mapping": "server>modules>user>controllers>user.login",
+			"method": "POST"
+		},
+		{
+			"alias": "/logout",
+			"mapping":  { "main" : "()=><Logout/>" },
+			"exact" : false
+		},
+		{
+			"alias": "/logout",
+			"mapping": "server>modules>user>controllers>user.logout",
+			"method": "POST"
+		},
+		{
+			"alias": "/passport",
+			"mapping": "server>modules>user>controllers>user.passport",
+			"method": "POST"
+		},
+		{
+			"alias": "/user",
+			"mapping": "server>modules>user>controllers>user.update",
+			"method": "GET"
+		},
+		{
+			"alias": "/order/:id",
+			"mapping": { "main" : "()=><Home/>" },
+			"exact" : false
+		},
+		{
+			"alias": "/home",
+			"mapping": "server>modules>home>controllers>index.indexHome",
+			"method": "GET"
+		},
+		{
+			"alias": "/update",
+			"mapping": "server>modules>home>controllers>index.update",
+			"method": "GET"
+		},
+		{
+			"alias": "/english/store",
+			"mapping": "server>modules>games>controllers>SmartStudy.storeData",
+			"method": "POST"
+		}
+		
+	]
+}

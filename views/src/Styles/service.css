@@ -1,0 +1,92 @@
+/* #service */
+#service{
+  background: #fff;
+}
+/* HEADER */
+#service #header.left{width: 30%}
+#service #header.right{height: 70%}
+#service #logo{padding: 5px 0;}
+#service #logo img{height: 75px;transition: all 400ms ease,box-shadow 200ms ease;}
+#service #menu_top{margin-top: 25px; transition: all 400ms ease,box-shadow 200ms ease;color: #040404;}
+#service #menu_top a{color: #040404;padding: 10px 5px;display: block;}
+#service #menu_top{list-style:none}
+#service #menu_top li{display: inline-block;margin-left: 5px;}
+
+#service .fixed #logo img{
+    height: 48px;
+    transition: all 400ms ease,box-shadow 200ms ease;
+  }
+#service .fixed #menu_top{
+    margin-top: 12px;
+    transition: all 400ms ease,box-shadow 200ms ease;
+  }
+#service #header{
+    position: relative;
+    width: 100%;
+    z-index: 100;
+  }
+#service #header .hd-content{
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid rgba(191, 191, 191, 0.5);
+}
+#service #header .fixed{
+    border-bottom: 1px solid rgba(70, 68, 68, 0.5);
+  }
+  .header-buffer{
+    height: 89px;
+  }
+#service #header .fixed{
+    background-color: #fff;
+    transition: background-color 400ms ease,box-shadow 200ms ease;
+}
+#service #message_header{
+  position: relative;
+}
+#service #message_header #wp_message{
+  position: absolute;
+  right: 0px;
+  padding: 5px 10px;
+  width: 250px;
+  max-height: 500px;
+  overflow: auto;
+}
+#wp_message .box_message{
+  position: relative;
+  background: #fff;
+  width: 100%;
+  padding: 15px 10px;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+  margin: 5px 0px;
+}
+#wp_message .close{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 1px solid #ccc;
+  padding: 2px 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* HEADER CLOSE */
+
+/* FOOTER */
+#service #footer{
+	color: #fff;
+}
+#service #footer_top p{
+	padding: 5px 10px;
+}
+#service #footer_top a{
+  color: #cfcfcf;
+}
+#service #footer_bottom{
+	background: #083970
+}
+#service #footer_bottom p{
+	padding: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+/* FOOTER CLOSE */

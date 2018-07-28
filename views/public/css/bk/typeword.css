@@ -1,0 +1,184 @@
+/* #wp_content{
+	width: 80%;
+	min-height: 700px;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+} */
+
+#wp_screen_media{
+	border: 1px solid #ccc;
+	border-radius: 10px;
+}
+.media_width{
+	width: 600px;
+	margin: 0 auto;
+}
+.playing_color{
+	color: #000;
+}
+#media_summary{
+	margin-bottom: 15px;
+	padding: 10px;
+}
+.s1{
+	height: auto;
+	overflow: hidden;
+	padding: 10px;
+}
+.s1{
+	float: left;
+	width: 30%;
+}
+.s1:nth-child(2n){
+	width: 60%;
+	float: left;
+}
+.s1:first-child{
+	padding: 0;
+}
+.s1:last-child{
+	width: 10%;
+	float: right;
+	text-align: right;
+}
+.wrap_example{
+	width: 100%;
+	height: auto;
+}
+.media_example{
+	margin-top: 10px;
+}
+.s2,.s3{
+	height: auto;
+	overflow: hidden;
+}
+.s2{
+	float: left;
+	width: 20%;
+}
+.s2 .example_img_desc img{
+	width: 100%;
+}
+.s3{
+	float: left;
+	width: 80%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.s3 .example_summary{
+	margin-bottom: 5px;
+}
+.s3 .expAudio{
+	margin-right: 15px;
+}
+.s1{
+	min-width: 20px;
+	min-height: 20px;
+}
+.media_img_desc img{
+	width: 100%;
+}
+.audio_word{
+	margin: 0px 10px;
+	font-weight: bold;
+	font-size: 2em;
+}
+.audio_pa{
+	display: block;
+	margin: 5px 0px;
+}
+.audio_intro{
+	width: 50%;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+.audio_intro h3{
+	margin-left: 5px;
+	display: inline;
+}
+#media_description{
+	padding: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.input_desc{
+	width: 100%;
+	min-height: 80px;
+	max-height: 100px;
+	padding: 10px;
+	overflow-y: auto;
+	border: 1px solid #ccc;
+	unicode-bidi: embed;
+	word-wrap: break-word;
+	white-space: nowrap;
+}
+.read_input{
+	-webkit-user-modify: read-only;
+	user-modify: read-only;
+}
+.write_input{
+	-webkit-user-modify: read-write-plaintext-only;
+	user-modify: read-write-plaintext-only;
+}
+.user_input{
+	padding: 10px;
+	width: 100%;
+	min-height: 80px;
+	max-height: 100px;
+	resize:none;
+	overflow:hidden;
+	border:0px;
+	outline:0px;
+	background-color:transparent;
+	position: absolute
+}
+.user_input:focus ~ .input_desc{
+	border-color: blue;
+}
+.user_error:focus ~ .input_desc{
+	border-color: red !important;
+}
+.fa-volume-up{
+	font-size: 25px;
+}
+.fa-volume-up:hover{
+	color: red;
+	cursor: pointer;
+}
+#media_description{
+	margin-bottom: 15px;
+}
+#media_control{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+
+.media_desc_point{
+	background: #02a9e8;
+	padding: 10px;
+}
+.media_top{
+	max-height: 460px;
+	overflow-y: auto;
+}
+.d1{
+	float: left;
+	min-width: 5px;
+	min-height: 5px;
+}
+.d1:nth-child(1){
+	width: 70%;
+	color: #000;
+}
+.d1:nth-child(2){
+	width: 30%;
+	text-align: right;
+}
+
+.volume-lagre{
+	font-size: 50px !important;
+}
+.volume-small{
+	font-size: 22px !important;
+}

@@ -1,0 +1,57 @@
+#wp_form_user_login{
+	user-select: none;
+	width: 450px;
+	min-height: 300px;
+	border: 1px solid #ccc;
+	margin: 15px auto;
+	background: #fff;
+	/* position: fixed; */
+	/* top: 200px; */
+	/* left: 300px; */
+}
+#login_toolbar_top{
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	/* cursor: move; */
+	background: #fff;
+}
+#login_title{
+	padding-top: 15px; 
+	margin-bottom: 15px; 
+	font-size: 18px;
+}
+#login_close{
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	padding: 15px 15px;
+	cursor: pointer;
+	background: #cfcfcf;
+	color: #000;
+}
+#login_close:hover{
+	background: #ccc;
+	color: white;
+}
+#login_content{
+	width: 80%;
+	margin: 15px auto;
+
+}
+.tip_node{
+	padding-top: 10px;
+	line-height: 18px;
+}
+.tip_node a{
+	color: #0d4b71;
+	font-weight: bold;
+}
+._ctr_drag_system_dom{
+	cursor: crosshair;
+	user-select: none;
+}
+.message_error{
+	margin-bottom: 8px;
+	color: red;
+}

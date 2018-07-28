@@ -1,0 +1,35 @@
+#admin table{
+    width: 100%;
+}
+#admin #ae{
+    background: #fff;
+    width: 100%;
+    margin: 10px auto;
+    overflow: auto;
+}
+#admin th {
+    background: #666;
+    color: #fff;
+    font: bold 14px Tahoma;
+}
+#admin th,#admin td {
+    padding: 6px 5px;
+}
+#admin table input[type="text"]{
+    width: 100%;
+}
+#admin .add_plus{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+    padding: 2px 10px;
+    cursor: pointer;
+}
+.tbl_example{
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.tbl_example h3{
+    padding: 5px 5px;
+}

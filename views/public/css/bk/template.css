@@ -1,0 +1,167 @@
+@import url('CommonDef.css');
+#root{
+	width: var(--SCREEN,100%);
+}
+#header{
+	width: var(--SCREEN);
+	background-color: var(--COLOR_SIDERBAR,"BLUE");
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+#logo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+	color: var(--COLOR_WHITE,"black");
+	font-size: 22px;
+	font-weight: bold;
+
+}
+#topbar{
+	float: right;
+}
+.header_menu>li{
+	float: left;
+	margin-top: 10px; 
+	margin-left: 10px;
+}
+.header_menu>li>a{
+	color: var(--COLOR_WHITE);
+	border: 1px solid #fff;
+	border-radius: 15px;
+	font-size: 18px;
+	padding: 10px 15px;
+	display: block;
+	transition: all ease 0.5s;
+}
+.header_menu>li:hover a{
+	background-color: var(--COLOR_WHITE);
+	color: var(--COLOR_TEXT);
+	transition: all ease 0.5s;
+}
+#main_content{
+	margin-top: var(--HEIGHT_HEAD);
+	margin-bottom: var(--HEIGHT_HEAD);
+}
+.content{
+	min-height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+.bg_content{
+	width: 100%;
+	height: 500px;
+	/* background-image: url("../imgs/home/schol2.jpg");
+	background-repeat: no-repeat; */
+	z-index: 10;
+}
+.bg_content img{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+#play_game{
+	position: absolute;
+	top: 60%;
+	left: 45%;
+}
+#play_game button{
+	width: 200px;
+	height: 80px;
+	border-radius: 50%;
+	background-color: blue;
+	color: white;
+	font-size: 18px;
+	border-width: 3px;
+}
+#play_game button:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+#footer{
+	width: var(--SCREEN);
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+	
+}
+#bottombar{
+	float: left;
+}
+.footer_menu>li{
+	float: left;
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	margin-right: 10px; 
+}
+.footer_menu>li>a{
+	display: block;
+	padding: 15px 0px;
+	color: #6f0d0d;
+	font-size: 16px;
+}
+#tdm_software{
+	float: right;
+	margin: 20px 0;
+	font-weight: bold;
+	font-size: 16px;
+}
+.gui_root{
+	position: relative;
+	top: -500px;
+	z-index: 20;
+	width: 100%;
+	height: 500px;
+	/* background: #000;
+	opacity: 0.6; */
+	-webkit-box-shadow: 1px 16px 33px -3px rgba(0,0,0,0.41);
+-moz-box-shadow: 1px 16px 33px -3px rgba(0,0,0,0.41);
+box-shadow: 1px 16px 33px -3px rgba(0,0,0,0.41);
+}
+.gui_tdm_view{
+	transform: rotate(-35deg);
+	-webkit-transform: rotate(-35deg);
+	-ms-transform: rotate(-35deg);
+	-moz-transform: rotate(-35deg);
+	position: absolute;
+	top: 360px;
+	right: 450px;
+	
+	font-size: 45px;
+	color: #fff;
+}
+.gui_edu_view{
+	transform: rotate(-35deg);
+	-webkit-transform: rotate(-35deg);
+	-ms-transform: rotate(-35deg);
+	-moz-transform: rotate(-35deg);
+	position: absolute;
+	top: 232px;
+    right: 207px;
+	font-size: 45px;
+	color: #fff;
+}
+.gui_online_view{
+	transform: rotate(-11deg);
+	-webkit-transform: rotate(-11deg);
+	-ms-transform: rotate(-11deg);
+	-moz-transform: rotate(-11deg);
+	position: absolute;
+	top: 85px;
+    left: 126px;
+	font-size: 45px;
+	color: #fff;
+}
+.gui_clock_view{
+	position: absolute;
+	top: 20px;
+    right: 20px;
+	font-size: 20px;
+	color: #fff;
+}

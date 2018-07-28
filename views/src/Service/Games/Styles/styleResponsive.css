@@ -1,0 +1,25 @@
+@media screen and (max-width: 960px){
+    body {
+        background-color: lightblue;
+    }
+}
+@media screen and (max-width: 768px){
+    .wp_play_game{
+        width: 95%;
+    }
+    .wp_game_border{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 480px){
+    .wp_play_game{
+        width: 95%;
+    }
+    .wp_game_border{
+        width: 95%;
+    }
+    .sys_msg{
+        width: 95%;
+        margin-top: 10px;
+    }
+}

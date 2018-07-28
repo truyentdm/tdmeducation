@@ -1,0 +1,59 @@
+{
+  "name": "nodejs-ex",
+  "version": "0.0.1",
+  "description": "Node.js sample app for OpenShift 3",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.4.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jquery": "^3.3.1",
+    "mocha": "^2.4.5",
+    "lodash": "*",
+    "mongodb": "*",
+    "morgan": "^1.7.0",
+    "object-assign": "4.1.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "xml2js": "^0.4.19"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "node ./server/index.js",
+    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js",
+    "webpack": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/openshift/nodejs-ex.git"
+  },
+  "author": "Steve Speicher <sspeiche@gmail.com>",
+  "license": "CC-BY-1.0",
+  "bugs": {
+    "url": "http://github.com/openshift/nodejs-ex/issues"
+  },
+  "homepage": "http://github.com/openshift/nodejs-ex",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1"
+  }
+}
